@@ -1,0 +1,25 @@
+{
+  "name": "socket.io-auth-jwt",
+  "version": "0.0.1",
+  "description": "Socket.io authentication using Json Web Token",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket.io",
+    "jwt"
+  ],
+  "author": {
+    "name": "Marko Janosevic",
+    "email": "madness.studio@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadnessCODE/socket.io-auth-jwt.git"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^7.4.2"
+  },
+  "license": "MIT"
+}
