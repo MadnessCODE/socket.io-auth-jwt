@@ -1,4 +1,6 @@
 ## Socket.io Auth JWT
+[![Build Status](https://travis-ci.org/MadnessCODE/socket.io-auth-jwt.svg?branch=master)](https://travis-ci.org/MadnessCODE/socket.io-auth-jwt)
+
 Socket.IO authentication middleware using JSON Web Token
 
 ## Installation
