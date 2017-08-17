@@ -1,14 +1,22 @@
 {
   "name": "socket.io-auth-jwt",
-  "version": "0.0.1",
-  "description": "Socket.io authentication using Json Web Token",
+  "version": "1.0.0",
+  "description": "Socket.IO authentication middleware using JSON Web Token",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
     "socket.io",
-    "jwt"
+    "jwt",
+    "socket.io middleware",
+    "authenticate",
+    "authentication",
+    "authorize",
+    "authorization",
+    "auth",
+    "Json Web Token",
+    "JWT Auth"
   ],
   "author": {
     "name": "Marko Janosevic",
@@ -21,5 +29,10 @@
   "dependencies": {
     "jsonwebtoken": "^7.4.2"
   },
+  "devDependencies": {
+    "mocha": "^3.5",
+    "socket.io": "^2.0.0",
+    "socket.io-client": "^2.0.0"
+  }
   "license": "MIT"
 }
